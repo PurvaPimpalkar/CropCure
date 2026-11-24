@@ -1,0 +1,823 @@
+{
+    "diseases": {
+        "Apple___Apple_scab": {
+            "description": "Apple scab is a fungal disease caused by Venturia inaequalis. It causes dark, scabby lesions on leaves and fruit.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Captan 50WP",
+                    "type": "Fungicide"
+                },
+                {
+                    "name": "Mancozeb 75WP",
+                    "type": "Fungicide"
+                },
+                {
+                    "name": "Myclobutanil (Rally 40WP)",
+                    "type": "Systemic Fungicide"
+                }
+            ],
+            "dosage": "Captan: 2.5 g/L water | Mancozeb: 2 g/L water | Myclobutanil: 0.5 g/L water",
+            "application_method": "Spray evenly on all leaf surfaces and fruit. Apply every 7–10 days during wet weather. Begin at bud break and continue through petal fall.",
+            "precautions": [
+                "Wear protective gloves and mask when handling chemicals",
+                "Do not spray during rain or when wind speed is high",
+                "Avoid spraying near water bodies",
+                "Observe a pre-harvest interval of 14 days",
+                "Remove and destroy infected leaves to reduce spore load"
+            ],
+            "cultural_practices": "Prune trees for better air circulation. Rake and destroy fallen leaves in autumn. Plant resistant varieties."
+        },
+        "Apple___Black_rot": {
+            "description": "Black rot is a fungal disease caused by Botryosphaeria obtusa, causing circular lesions on leaves, fruit rot, and cankers on branches.",
+            "severity": "High",
+            "medicines": [
+                {
+                    "name": "Thiophanate-methyl (Topsin-M)",
+                    "type": "Systemic Fungicide"
+                },
+                {
+                    "name": "Captan 50WP",
+                    "type": "Fungicide"
+                },
+                {
+                    "name": "Ziram 76DF",
+                    "type": "Protectant Fungicide"
+                }
+            ],
+            "dosage": "Thiophanate-methyl: 1 g/L | Captan: 2.5 g/L | Ziram: 3 mL/L water",
+            "application_method": "Start applications at pink stage and continue through cover sprays. Spray every 10–14 days. Ensure thorough coverage of fruit and foliage.",
+            "precautions": [
+                "Prune and remove dead branches to eliminate overwintering sites",
+                "Protect spray equipment from cross-contamination",
+                "Use fungicides in rotation to prevent resistance"
+            ],
+            "cultural_practices": "Remove mummified fruits. Prune infected branches well below canker margins. Improve drainage."
+        },
+        "Apple___Cedar_apple_rust": {
+            "description": "Cedar-apple rust is caused by Gymnosporangium juniperi-virginianae, creating orange, gall-like lesions on leaves.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Myclobutanil (Rally 40WP)",
+                    "type": "Systemic Fungicide"
+                },
+                {
+                    "name": "Propiconazole (Banner MAXX)",
+                    "type": "Systemic Fungicide"
+                },
+                {
+                    "name": "Mancozeb 75WP",
+                    "type": "Protectant Fungicide"
+                }
+            ],
+            "dosage": "Myclobutanil: 0.5 g/L | Propiconazole: 1 mL/L | Mancozeb: 2 g/L water",
+            "application_method": "Apply at pink bud stage through late petal fall. Spray every 7–10 days during humid weather. Target all leaf surfaces.",
+            "precautions": [
+                "Avoid planting apple trees near eastern red cedar or juniper trees",
+                "Use personal protective equipment when spraying",
+                "Alternate fungicide classes to prevent resistance development"
+            ],
+            "cultural_practices": "Remove nearby cedar/juniper galls if possible. Plant rust-resistant apple varieties."
+        },
+        "Apple___healthy": {
+            "description": "The apple plant appears healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Maintain regular preventive spray schedule during high-risk periods.",
+            "precautions": [
+                "Continue regular monitoring",
+                "Maintain good orchard hygiene"
+            ],
+            "cultural_practices": "Regular pruning, proper fertilization, and balanced irrigation."
+        },
+        "Blueberry___healthy": {
+            "description": "The blueberry plant is healthy with no signs of disease.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Continue preventive care practices.",
+            "precautions": [
+                "Monitor for pests and diseases regularly"
+            ],
+            "cultural_practices": "Maintain soil pH between 4.5–5.5. Mulch around base."
+        },
+        "Cherry___Powdery_mildew": {
+            "description": "Powdery mildew on cherry is caused by Podosphaera clandestina, creating white powdery growth on leaves and young shoots.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Sulfur-based fungicide (Microthiol Disperss)",
+                    "type": "Contact Fungicide"
+                },
+                {
+                    "name": "Trifloxystrobin (Flint)",
+                    "type": "Systemic Fungicide"
+                },
+                {
+                    "name": "Potassium bicarbonate (Kaligreen)",
+                    "type": "Organic Fungicide"
+                }
+            ],
+            "dosage": "Sulfur: 3 g/L | Trifloxystrobin: 0.3 g/L | Potassium bicarbonate: 5 g/L water",
+            "application_method": "Begin applications at first sign of infection. Spray every 10–14 days. Ensure thorough coverage of new growth. Avoid spraying in high temperatures (>32°C).",
+            "precautions": [
+                "Do not apply sulfur in hot weather — risk of phytotoxicity",
+                "Rotate fungicide classes each spray",
+                "Wear protective clothing when handling sulfur products"
+            ],
+            "cultural_practices": "Prune for open canopy. Avoid excess nitrogen fertilization. Plant resistant varieties."
+        },
+        "Cherry___healthy": {
+            "description": "The cherry plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Continue routine preventive maintenance.",
+            "precautions": [
+                "Monitor regularly for early signs of powdery mildew"
+            ],
+            "cultural_practices": "Balanced fertilization and regular pruning."
+        },
+        "Corn___Cercospora_leaf_spot": {
+            "description": "Gray leaf spot caused by Cercospora zeae-maydis produces rectangular, gray to tan lesions on corn leaves.",
+            "severity": "High",
+            "medicines": [
+                {
+                    "name": "Azoxystrobin (Quadris)",
+                    "type": "Strobilurin Fungicide"
+                },
+                {
+                    "name": "Propiconazole (Tilt)",
+                    "type": "Triazole Fungicide"
+                },
+                {
+                    "name": "Pyraclostrobin (Headline)",
+                    "type": "Strobilurin Fungicide"
+                }
+            ],
+            "dosage": "Azoxystrobin: 1 mL/L | Propiconazole: 1 mL/L | Pyraclostrobin: 0.8 mL/L water",
+            "application_method": "Apply at VT/R1 growth stage (tasseling/silking). Use thorough canopy-penetrating spray. Repeat in 14–21 days if disease pressure remains high.",
+            "precautions": [
+                "Rotate fungicide classes each season",
+                "Avoid applications during extreme heat",
+                "Check resistance management guidelines for strobilurins"
+            ],
+            "cultural_practices": "Rotate crops with non-host plants. Use resistant hybrids. Tillage to reduce leaf residue."
+        },
+        "Corn___Common_rust": {
+            "description": "Common rust (Puccinia sorghi) causes small, circular to elongated, brick-red pustules on corn leaf surfaces.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Azoxystrobin + Propiconazole (Quilt Xcel)",
+                    "type": "Combination Fungicide"
+                },
+                {
+                    "name": "Trifloxystrobin (Stratego YLD)",
+                    "type": "Strobilurin Fungicide"
+                },
+                {
+                    "name": "Mancozeb 75WP",
+                    "type": "Protectant Fungicide"
+                }
+            ],
+            "dosage": "Quilt Xcel: 1.5 mL/L | Stratego: 0.5 mL/L | Mancozeb: 2 g/L water",
+            "application_method": "Spray at first sign of rust pustules. Apply at VT to R2 growth stage. Ensure good coverage of upper and lower leaf surfaces.",
+            "precautions": [
+                "Avoid repeated use of single-mode-of-action fungicides",
+                "Store fungicides away from feed and seeds",
+                "Wear gloves and eye protection during mixing"
+            ],
+            "cultural_practices": "Plant resistant hybrids. Scout regularly from V6 stage. Adequate plant spacing for airflow."
+        },
+        "Corn___Northern_Leaf_Blight": {
+            "description": "Northern leaf blight (Exserohilum turcicum) causes large, tan, cigar-shaped lesions on corn leaves, starting from lower leaves.",
+            "severity": "High",
+            "medicines": [
+                {
+                    "name": "Azoxystrobin (Quadris)",
+                    "type": "Strobilurin Fungicide"
+                },
+                {
+                    "name": "Propiconazole (Tilt)",
+                    "type": "Triazole Fungicide"
+                },
+                {
+                    "name": "Prothioconazole (Proline)",
+                    "type": "Triazole Fungicide"
+                }
+            ],
+            "dosage": "Azoxystrobin: 1 mL/L | Propiconazole: 1 mL/L | Prothioconazole: 0.6 mL/L water",
+            "application_method": "Apply at tasseling when first lesions appear. Repeat at 14-day intervals under severe conditions. Target full canopy coverage.",
+            "precautions": [
+                "Observe pre-harvest intervals strictly",
+                "Rotate with non-maize crops in heavily infected fields",
+                "Do not mix incompatible chemicals"
+            ],
+            "cultural_practices": "Use resistant hybrids. Crop rotation. Tillage to break down infected residue."
+        },
+        "Corn___healthy": {
+            "description": "The corn plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Maintain optimal nutrition and irrigation.",
+            "precautions": [
+                "Scout regularly from V6 onwards"
+            ],
+            "cultural_practices": "Maintain balanced nitrogen. Optimal population density."
+        },
+        "Grape___Black_rot": {
+            "description": "Black rot (Guignardia bidwellii) causes brown lesions on leaves with black pycnidia and mummified fruits.",
+            "severity": "High",
+            "medicines": [
+                {
+                    "name": "Mancozeb 75WP",
+                    "type": "Protectant Fungicide"
+                },
+                {
+                    "name": "Myclobutanil (Rally 40WP)",
+                    "type": "Systemic Fungicide"
+                },
+                {
+                    "name": "Captan 50WP",
+                    "type": "Fungicide"
+                }
+            ],
+            "dosage": "Mancozeb: 2 g/L | Myclobutanil: 0.5 g/L | Captan: 2.5 g/L water",
+            "application_method": "Begin at bud break, spray every 10–14 days through veraison. Apply before and after rain events. Thorough coverage of all shoot and fruit surfaces.",
+            "precautions": [
+                "Remove mummified berries and infected canes before new season",
+                "Avoid working in vineyard when leaves are wet",
+                "Pre-harvest interval: 14 days for most fungicides"
+            ],
+            "cultural_practices": "Prune for open canopy. Remove mummified fruits. Shoot positioning for airflow."
+        },
+        "Grape___Esca_(Black_Measles)": {
+            "description": "Esca is a complex wood disease of grapevines causing interveinal leaf scorch, berry spotting, and internal wood decay.",
+            "severity": "High",
+            "medicines": [
+                {
+                    "name": "Sodium arsenite (where legal)",
+                    "type": "Wood Treatment"
+                },
+                {
+                    "name": "Trichoderma harzianum (biological)",
+                    "type": "Biocontrol Agent"
+                },
+                {
+                    "name": "Thiophanate-methyl wound sealant",
+                    "type": "Systemic Fungicide"
+                }
+            ],
+            "dosage": "Thiophanate-methyl paint: apply undiluted to pruning wounds | Trichoderma: follow label",
+            "application_method": "Protect all pruning wounds immediately after cutting. Apply wound protectant paste or spray within 24 hours. Biological agents can be applied to soil around root zone.",
+            "precautions": [
+                "There is no cure once wood is infected — focus on prevention",
+                "Disinfect pruning tools between vines with 70% alcohol",
+                "Remove and burn severely infected vines",
+                "Avoid large pruning wounds by training young vines carefully"
+            ],
+            "cultural_practices": "Prune during dry weather. Double pruning technique to delay trunk exposure. Replace infected vines."
+        },
+        "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+            "description": "Leaf blight (Isariopsis clavispora) causes dark brown lesions with yellow halos on older grape leaves.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Copper hydroxide (Kocide 3000)",
+                    "type": "Contact Fungicide"
+                },
+                {
+                    "name": "Mancozeb 75WP",
+                    "type": "Protectant Fungicide"
+                },
+                {
+                    "name": "Metalaxyl + Mancozeb (Ridomil Gold MZ)",
+                    "type": "Systemic + Protectant"
+                }
+            ],
+            "dosage": "Copper hydroxide: 2.5 g/L | Mancozeb: 2 g/L | Ridomil Gold MZ: 2.5 g/L water",
+            "application_method": "Spray at first sign of disease. Apply every 10–14 days in humid weather. Focus especially on older foliage where infection begins.",
+            "precautions": [
+                "Avoid excess copper accumulation in soil",
+                "Wear PPI during copper sprays",
+                "Rotate active ingredients to manage resistance"
+            ],
+            "cultural_practices": "Remove infected leaves. Improve canopy ventilation. Avoid overhead irrigation."
+        },
+        "Grape___healthy": {
+            "description": "The grape plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Continue preventive spray program.",
+            "precautions": [
+                "Regular scouting essential in humid climates"
+            ],
+            "cultural_practices": "Canopy management and balanced nutrition."
+        },
+        "Orange___Haunglongbing_(Citrus_greening)": {
+            "description": "Huanglongbing (HLB) or citrus greening is a severe bacterial disease spread by the Asian citrus psyllid, causing blotchy yellowing, small misshapen fruit, and eventual tree death.",
+            "severity": "Critical",
+            "medicines": [
+                {
+                    "name": "Imidacloprid (Confidor)",
+                    "type": "Insecticide (psyllid control)"
+                },
+                {
+                    "name": "Spirotetramat (Movento)",
+                    "type": "Systemic Insecticide (psyllid)"
+                },
+                {
+                    "name": "Oxytetracycline (antibiotic trunk injection)",
+                    "type": "Antibiotic (suppressive only)"
+                }
+            ],
+            "dosage": "Imidacloprid soil drench: 0.5 g/L per tree | Oxytetracycline: follow certified applicator dosing",
+            "application_method": "There is NO cure for HLB. Management focuses on: (1) Controlling the Asian citrus psyllid vector with insecticides every 3 weeks during new flush. (2) Removing and destroying infected trees. (3) Antibiotic injections may temporarily improve tree appearance but do not cure the disease.",
+            "precautions": [
+                "Remove and destroy all infected trees immediately to prevent spread",
+                "Do not move plant material out of infected areas",
+                "Antibiotic trunk injections require licensed professional applicators",
+                "Report suspected HLB to local agricultural authorities immediately"
+            ],
+            "cultural_practices": "Plant certified disease-free nursery stock. Use reflective mulch to repel psyllids. Quarantine measures."
+        },
+        "Peach___Bacterial_spot": {
+            "description": "Bacterial spot (Xanthomonas arboricola pv. pruni) causes water-soaked spots on leaves that turn dark and fall out, leaving shot-holes.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Copper hydroxide (Kocide 3000)",
+                    "type": "Bactericide"
+                },
+                {
+                    "name": "Oxytetracycline (Mycoshield)",
+                    "type": "Antibiotic Bactericide"
+                },
+                {
+                    "name": "Copper sulfate + lime (Bordeaux mixture)",
+                    "type": "Contact Bactericide"
+                }
+            ],
+            "dosage": "Copper hydroxide: 2–3 g/L | Oxytetracycline: 1 g/L | Bordeaux 1%: 10 g copper sulfate + 10 g lime per liter",
+            "application_method": "Begin copper applications at dormancy/delayed-dormancy. Apply oxytetracycline at shuck split through cover sprays every 7–10 days. Stop copper by shuck split to avoid phytotoxicity.",
+            "precautions": [
+                "Do not apply copper during green tip or after petal fall if phytotoxicity risk is high",
+                "Oxytetracycline resistance can develop — rotate with copper products",
+                "Plant on well-drained sites with good air circulation"
+            ],
+            "cultural_practices": "Plant resistant varieties. Avoid overhead irrigation. Prune infected shoots."
+        },
+        "Peach___healthy": {
+            "description": "The peach plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Continue preventive copper program during dormancy.",
+            "precautions": [
+                "Scout for bacterial spot in wet seasons"
+            ],
+            "cultural_practices": "Proper nutrition and drainage management."
+        },
+        "Pepper_bell___Bacterial_spot": {
+            "description": "Bacterial spot (Xanthomonas spp.) causes water-soaked lesions on pepper leaves and fruit that turn dark brown with yellow halos.",
+            "severity": "Moderate to High",
+            "medicines": [
+                {
+                    "name": "Copper hydroxide (Kocide 3000)",
+                    "type": "Bactericide"
+                },
+                {
+                    "name": "Copper sulfate pentahydrate + Mancozeb (Badge X2)",
+                    "type": "Combination Bactericide"
+                },
+                {
+                    "name": "Acibenzolar-S-methyl (Actigard)",
+                    "type": "SAR Activator"
+                }
+            ],
+            "dosage": "Copper hydroxide: 2.5 g/L | Badge X2: 2 g/L | Actigard: 0.05 g/L water",
+            "application_method": "Begin applications when seedlings are transplanted. Apply every 5–7 days in wet/warm conditions. Alternate copper with Actigard sprays for resistance management.",
+            "precautions": [
+                "Use pathogen-free certified seed",
+                "Avoid overhead irrigation — use drip irrigation where possible",
+                "Limit copper use to avoid fruit russeting",
+                "Do not save seed from infected plants"
+            ],
+            "cultural_practices": "3-year crop rotation. Weed control. Sanitize equipment between fields."
+        },
+        "Pepper_bell___healthy": {
+            "description": "The bell pepper plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Maintain preventive spray schedule during wet weather.",
+            "precautions": [
+                "Use certified disease-free transplants"
+            ],
+            "cultural_practices": "Crop rotation and balanced fertilization."
+        },
+        "Potato___Early_blight": {
+            "description": "Early blight (Alternaria solani) causes dark brown concentric-ring lesions on older potato leaves, leading to premature defoliation.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Chlorothalonil (Bravo 720)",
+                    "type": "Protectant Fungicide"
+                },
+                {
+                    "name": "Azoxystrobin (Amistar)",
+                    "type": "Strobilurin Fungicide"
+                },
+                {
+                    "name": "Mancozeb 75WP",
+                    "type": "Protectant Fungicide"
+                }
+            ],
+            "dosage": "Chlorothalonil: 2 mL/L | Azoxystrobin: 0.8 mL/L | Mancozeb: 2 g/L water",
+            "application_method": "Begin applications at canopy closure or when first symptoms appear. Spray every 7–10 days. Ensure full coverage of both leaf surfaces. Stop 7–14 days before harvest.",
+            "precautions": [
+                "Rotate fungicides — alternate strobilurins with protectants",
+                "Avoid applying in hot midday sun",
+                "Maintain good nutrition especially adequate potassium"
+            ],
+            "cultural_practices": "Use certified seed potatoes. Avoid overhead irrigation. Destroy crop debris after harvest."
+        },
+        "Potato___Late_blight": {
+            "description": "Late blight (Phytophthora infestans) is one of the most destructive potato diseases, causing water-soaked dark lesions that spread rapidly in cool, wet weather.",
+            "severity": "Critical",
+            "medicines": [
+                {
+                    "name": "Metalaxyl + Mancozeb (Ridomil Gold MZ)",
+                    "type": "Systemic + Protectant"
+                },
+                {
+                    "name": "Cymoxanil + Mancozeb (Curzate M8)",
+                    "type": "Combination Fungicide"
+                },
+                {
+                    "name": "Dimethomorph + Mancozeb (Acrobat MZ)",
+                    "type": "Combination Fungicide"
+                }
+            ],
+            "dosage": "Ridomil Gold MZ: 2.5 g/L | Curzate M8: 2 g/L | Acrobat MZ: 2 g/L water",
+            "application_method": "Begin preventive sprays at tuber initiation or at first blight alert. Apply every 5–7 days during wet conditions. Rotate between fungicide groups. Apply with high volume to ensure canopy saturation.",
+            "precautions": [
+                "CRITICAL: Act immediately — late blight can destroy a field in days",
+                "Metalaxyl resistance is widespread — always mix with a protectant fungicide",
+                "Destroy infected plant material — do not compost",
+                "Observe pre-harvest intervals strictly",
+                "Haulm desiccation 2–3 weeks before harvest to protect tubers"
+            ],
+            "cultural_practices": "Use resistant varieties. Avoid overhead irrigation. Good hilling to protect tubers."
+        },
+        "Potato___healthy": {
+            "description": "The potato plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Continue preventive blight spray program during high-risk periods.",
+            "precautions": [
+                "Monitor daily during cool, wet weather"
+            ],
+            "cultural_practices": "Use certified disease-free seed tubers."
+        },
+        "Raspberry___healthy": {
+            "description": "The raspberry plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Maintain regular scouting and preventive care.",
+            "precautions": [
+                "Watch for cane diseases after harvest"
+            ],
+            "cultural_practices": "Proper pruning and good air circulation."
+        },
+        "Soybean___healthy": {
+            "description": "The soybean plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Continue routine agronomic management.",
+            "precautions": [
+                "Monitor for sudden death syndrome and soybean rust"
+            ],
+            "cultural_practices": "Crop rotation and proper seeding rates."
+        },
+        "Squash___Powdery_mildew": {
+            "description": "Powdery mildew (Podosphaera xanthii) forms white powdery patches on squash leaves, reducing photosynthesis and yield.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Sulfur-based fungicide (Microthiol Disperss)",
+                    "type": "Contact Fungicide"
+                },
+                {
+                    "name": "Potassium bicarbonate (Kaligreen)",
+                    "type": "OMRI Organic Fungicide"
+                },
+                {
+                    "name": "Azoxystrobin (Amistar)",
+                    "type": "Strobilurin Fungicide"
+                }
+            ],
+            "dosage": "Sulfur: 3 g/L | Potassium bicarbonate: 5 g/L | Azoxystrobin: 0.8 mL/L water",
+            "application_method": "Spray at first sign of white powdery patches. Apply every 7–10 days. Focus on upper and lower leaf surfaces. Avoid applying sulfur in temperatures above 32°C.",
+            "precautions": [
+                "Do not apply sulfur within 2 weeks of oil-based pesticides",
+                "Rotate fungicide classes",
+                "Wear eye protection with sulfur dust applications"
+            ],
+            "cultural_practices": "Increase plant spacing. Avoid overhead irrigation. Use resistant varieties."
+        },
+        "Strawberry___Leaf_scorch": {
+            "description": "Leaf scorch (Diplocarpon earlianum) causes small, dark purple to reddish spots on strawberry leaves that expand and cause leaf death.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Captan 50WP",
+                    "type": "Fungicide"
+                },
+                {
+                    "name": "Myclobutanil (Rally 40WP)",
+                    "type": "Systemic Fungicide"
+                },
+                {
+                    "name": "Thiram 75WP",
+                    "type": "Protectant Fungicide"
+                }
+            ],
+            "dosage": "Captan: 2.5 g/L | Myclobutanil: 0.5 g/L | Thiram: 2 g/L water",
+            "application_method": "Apply at first sign of disease. Spray every 7–10 days during spring and fall when infection is common. After renovation (mowing), apply a protective fungicide.",
+            "precautions": [
+                "Do not apply Thiram within 3 days of harvest",
+                "Observe all pre-harvest intervals strictly",
+                "Wear protective gloves when handling Thiram"
+            ],
+            "cultural_practices": "Remove and destroy heavily infected leaves. Use drip irrigation. Rotate planting beds every 2 years."
+        },
+        "Strawberry___healthy": {
+            "description": "The strawberry plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Preventive fungicide sprays after renovation mowing.",
+            "precautions": [
+                "Monitor for leaf scorch during wet spring weather"
+            ],
+            "cultural_practices": "Regular renovation and bed management."
+        },
+        "Tomato___Bacterial_spot": {
+            "description": "Bacterial spot (Xanthomonas spp.) causes water-soaked spots on tomato leaves and fruit that turn dark, scabby, and sunken.",
+            "severity": "Moderate to High",
+            "medicines": [
+                {
+                    "name": "Copper hydroxide (Kocide 3000)",
+                    "type": "Bactericide"
+                },
+                {
+                    "name": "Copper octanoate (Cueva)",
+                    "type": "Organic Bactericide"
+                },
+                {
+                    "name": "Acibenzolar-S-methyl (Actigard)",
+                    "type": "SAR Plant Activator"
+                }
+            ],
+            "dosage": "Copper hydroxide: 2.5 g/L | Cueva: 5 mL/L | Actigard: 0.05 g/L water",
+            "application_method": "Apply at transplanting. Spray every 5–7 days in hot, wet weather. Rotate copper with Actigard every other spray. Ensure thorough coverage — spray early morning to allow foliage to dry.",
+            "precautions": [
+                "Use certified disease-free transplants — crucial for prevention",
+                "Avoid working in field when foliage is wet",
+                "Do not save seed from infected fruits",
+                "Sanitize stakes and cages with 10% bleach solution between seasons"
+            ],
+            "cultural_practices": "2-3 year crop rotation. Drip irrigation. Proper staking for airflow."
+        },
+        "Tomato___Early_blight": {
+            "description": "Early blight (Alternaria solani) causes dark concentric-ring lesions starting on older tomato leaves, moving upward as the season progresses.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Chlorothalonil (Bravo 720)",
+                    "type": "Protectant Fungicide"
+                },
+                {
+                    "name": "Azoxystrobin + Difenoconazole (Amistar Top)",
+                    "type": "Combination Fungicide"
+                },
+                {
+                    "name": "Mancozeb 75WP",
+                    "type": "Protectant Fungicide"
+                }
+            ],
+            "dosage": "Chlorothalonil: 2 mL/L | Amistar Top: 1 mL/L | Mancozeb: 2 g/L water",
+            "application_method": "Start at first sign of disease or at transplanting in wet conditions. Spray every 7–10 days. Target lower leaves first, work upward. Remove heavily infected lower leaves before spraying.",
+            "precautions": [
+                "Rotate fungicide classes to prevent resistance",
+                "Allow 7-14 day pre-harvest interval",
+                "Do not spray in high temperatures during midday"
+            ],
+            "cultural_practices": "Remove infected lower leaves. Dense mulch to reduce soil splash. Proper stakes and ties."
+        },
+        "Tomato___Late_blight": {
+            "description": "Late blight (Phytophthora infestans) in tomatoes causes rapidly spreading water-soaked lesions on leaves, stems, and fruit, with white sporulation in humid conditions.",
+            "severity": "Critical",
+            "medicines": [
+                {
+                    "name": "Metalaxyl + Mancozeb (Ridomil Gold MZ)",
+                    "type": "Systemic + Protectant"
+                },
+                {
+                    "name": "Cymoxanil + Mancozeb (Curzate M8)",
+                    "type": "Combination Fungicide"
+                },
+                {
+                    "name": "Chlorothalonil (Bravo 720)",
+                    "type": "Protectant Fungicide"
+                }
+            ],
+            "dosage": "Ridomil Gold MZ: 2.5 g/L | Curzate M8: 2 g/L | Chlorothalonil: 2 mL/L water",
+            "application_method": "Begin preventive sprays at first blight risk or when first symptoms appear. Apply every 5–7 days during wet weather. Spray under and over leaf surfaces. Act immediately — late blight spreads very rapidly.",
+            "precautions": [
+                "URGENT: Destroy infected plants immediately to prevent spread",
+                "Never compost infected plant material",
+                "Do not work in field when foliage is wet",
+                "Rotate fungicide groups strictly — Metalaxyl resistance is common",
+                "Observe all pre-harvest intervals"
+            ],
+            "cultural_practices": "Destroy volunteer potato plants nearby. Avoid overhead irrigation. Stake plants well."
+        },
+        "Tomato___Leaf_Mold": {
+            "description": "Leaf mold (Passalora fulva) causes pale yellow spots on upper leaf surfaces and olive-green to grayish-brown velvety mold on undersides.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Chlorothalonil (Bravo 720)",
+                    "type": "Protectant Fungicide"
+                },
+                {
+                    "name": "Mancozeb 75WP",
+                    "type": "Protectant Fungicide"
+                },
+                {
+                    "name": "Azoxystrobin (Amistar)",
+                    "type": "Strobilurin Fungicide"
+                }
+            ],
+            "dosage": "Chlorothalonil: 2 mL/L | Mancozeb: 2 g/L | Azoxystrobin: 0.8 mL/L water",
+            "application_method": "This disease is primarily a greenhouse problem. Improve ventilation before chemical treatment. Apply sprays to lower leaf surfaces where sporulation occurs. Spray every 7–10 days.",
+            "precautions": [
+                "Critical: Reduce relative humidity below 85% inside greenhouses — this is the primary control",
+                "Remove infected leaves and destroy them",
+                "Avoid wetting foliage with overhead irrigation"
+            ],
+            "cultural_practices": "Improve greenhouse ventilation. Reduce humidity. Use resistant varieties (Cf gene resistance)."
+        },
+        "Tomato___Septoria_leaf_spot": {
+            "description": "Septoria leaf spot (Septoria lycopersici) causes numerous small circular spots with dark borders and tan/white centers on lower tomato leaves.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Chlorothalonil (Bravo 720)",
+                    "type": "Protectant Fungicide"
+                },
+                {
+                    "name": "Mancozeb 75WP",
+                    "type": "Protectant Fungicide"
+                },
+                {
+                    "name": "Azoxystrobin + Difenoconazole (Amistar Top)",
+                    "type": "Combination Fungicide"
+                }
+            ],
+            "dosage": "Chlorothalonil: 2 mL/L | Mancozeb: 2 g/L | Amistar Top: 1 mL/L water",
+            "application_method": "Begin sprays when first spots appear on lower leaves. Apply every 7–10 days. Remove infected lower leaves before spraying. Target undersides of leaves where spores are produced.",
+            "precautions": [
+                "Do not compost infected plant debris",
+                "Rotate fungicide classes each spray",
+                "Avoid working in wet tomato plantings"
+            ],
+            "cultural_practices": "Mulch to prevent soil splash. Stake plants. Multi-year crop rotation (3+ years)."
+        },
+        "Tomato___Spider_mites": {
+            "description": "Two-spotted spider mites (Tetranychus urticae) cause stippling and bronzing on tomato leaves, with fine webbing visible on undersides in severe cases.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Abamectin (Vertimec)",
+                    "type": "Acaricide"
+                },
+                {
+                    "name": "Bifenazate (Floramite)",
+                    "type": "Selective Miticide"
+                },
+                {
+                    "name": "Spiromesifen (Oberon)",
+                    "type": "Systemic Acaricide"
+                }
+            ],
+            "dosage": "Abamectin: 0.5 mL/L | Bifenazate: 1 mL/L | Spiromesifen: 0.75 mL/L water",
+            "application_method": "Spray both upper and lower leaf surfaces — spider mites feed on undersides. Apply in early morning or evening. A second application 5–7 days later is critical to break the mite life cycle.",
+            "precautions": [
+                "Rotate acaricide classes — mite resistance develops quickly",
+                "Avoid broad-spectrum insecticides that kill natural predators",
+                "Do not apply in temperatures above 35°C"
+            ],
+            "cultural_practices": "Maintain well-irrigated plants — drought stresses plants and worsens mite damage. Introduce predatory mites (Phytoseiidae) in IPM programs."
+        },
+        "Tomato___Target_Spot": {
+            "description": "Target spot (Corynespora cassiicola) causes dark brown, concentric-ring lesions on tomato leaves, stems, and fruit.",
+            "severity": "Moderate",
+            "medicines": [
+                {
+                    "name": "Azoxystrobin (Amistar)",
+                    "type": "Strobilurin Fungicide"
+                },
+                {
+                    "name": "Boscalid + Pyraclostrobin (Pristine)",
+                    "type": "Combination Fungicide"
+                },
+                {
+                    "name": "Chlorothalonil (Bravo 720)",
+                    "type": "Protectant Fungicide"
+                }
+            ],
+            "dosage": "Azoxystrobin: 0.8 mL/L | Pristine: 0.5 g/L | Chlorothalonil: 2 mL/L water",
+            "application_method": "Apply at first sign of disease. Spray every 7–14 days. Ensure thorough coverage of all plant surfaces including stems. Remove heavily infected leaves before spraying.",
+            "precautions": [
+                "Rotate between SDHI, strobilurin, and contact fungicides",
+                "Pre-harvest interval: 7 days for azoxystrobin",
+                "Do not overuse strobilurins — resistance risk"
+            ],
+            "cultural_practices": "Improve air circulation through training and pruning. Mulch to prevent spore splash."
+        },
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+            "description": "TYLCV is a highly destructive begomovirus transmitted by whiteflies. It causes upward leaf curling, yellowing, stunting, and severe yield loss.",
+            "severity": "Critical",
+            "medicines": [
+                {
+                    "name": "Imidacloprid (Confidor)",
+                    "type": "Systemic Insecticide (whitefly)"
+                },
+                {
+                    "name": "Thiamethoxam (Actara)",
+                    "type": "Systemic Insecticide (whitefly)"
+                },
+                {
+                    "name": "Pymetrozine (Plenish)",
+                    "type": "Selective Aphicide/Whitefly Control"
+                }
+            ],
+            "dosage": "Imidacloprid: 0.5 mL/L | Thiamethoxam: 0.2 g/L | Pymetrozine: 0.5 g/L water",
+            "application_method": "PREVENTION IS CRITICAL — there is no cure once plants are infected. Control whitefly vector with systemic insecticides applied to soil at transplanting (drench) + foliar sprays every 7–10 days. Use yellow sticky traps for monitoring.",
+            "precautions": [
+                "Remove and destroy infected plants to reduce inoculum",
+                "Rotate insecticide classes strictly — whitefly resistance is a major problem",
+                "Avoid planting near older tomato or other host crops",
+                "Use reflective mulch to deter whiteflies",
+                "Screen greenhouse vents with insect-proof mesh"
+            ],
+            "cultural_practices": "Plant TYLCV-resistant varieties (strong protection). Rogue infected plants early. Use certified whitefly-free transplants."
+        },
+        "Tomato___Tomato_mosaic_virus": {
+            "description": "Tomato mosaic virus (ToMV) causes light and dark green mottling on leaves, distortion, and stunting. It is mechanically transmitted through contact.",
+            "severity": "High",
+            "medicines": [
+                {
+                    "name": "No chemical cure available",
+                    "type": "N/A"
+                },
+                {
+                    "name": "Antiviral agents are not commercially viable",
+                    "type": "Research stage only"
+                }
+            ],
+            "dosage": "No effective chemical treatment exists",
+            "application_method": "PREVENTION AND SANITATION are the ONLY effective controls. Roguing (removing infected plants) is the primary action.",
+            "precautions": [
+                "IMMEDIATELY remove and destroy infected plants — do not compost",
+                "CRITICAL: workers must wash hands and disinfect tools (10% bleach or 70% alcohol) between plants",
+                "Do not smoke near tomato crops — tobacco can carry ToMV",
+                "Do not use infected seed",
+                "Avoid touching healthy plants after handling infected ones"
+            ],
+            "cultural_practices": "Use certified virus-free seed (seed can be heat treated at 70°C for 3 days). Plant resistant varieties (Tm-2² gene). Strict sanitation protocols."
+        },
+        "Tomato___healthy": {
+            "description": "The tomato plant is healthy with no visible disease symptoms.",
+            "severity": "None",
+            "medicines": [],
+            "dosage": "No treatment required",
+            "application_method": "Continue routine preventive spray schedule.",
+            "precautions": [
+                "Regular scouting essential — tomato is susceptible to many diseases"
+            ],
+            "cultural_practices": "Balanced fertilization, consistent irrigation, staking for airflow."
+        }
+    }
+}

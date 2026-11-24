@@ -1,0 +1,68 @@
+name: cropcure
+description: "CropCure - AI-powered crop disease detection app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+  # Camera & Gallery
+  camera: ^0.11.1
+  image_picker: ^1.1.2
+
+  # Networking
+  http: ^1.4.0
+
+  # State management
+  provider: ^6.1.5
+
+  # UI & Animations
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+  lottie: ^3.3.1
+  shimmer: ^3.0.0
+  percent_indicator: ^4.2.3
+  flutter_staggered_animations: ^1.1.1
+
+  # Utilities
+  path_provider: ^2.1.5
+  image: ^4.8.0
+  shared_preferences: ^2.5.4
+  sqflite: ^2.3.3+1
+  crypto: ^3.0.6
+
+  # On-device TFLite inference
+  tflite_flutter: ^0.11.0
+
+  # Blog module
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/cropcure_icon_cropped.png"
+  adaptive_icon_background: "#FFFFFF"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/cropcure_icon.png
+    - assets/images/cropcure_icon_cropped.png
+    - assets/lottie/
+    - assets/model/

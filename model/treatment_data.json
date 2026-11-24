@@ -1,0 +1,100 @@
+{
+    "Tomato_Early_blight": {
+        "type": "Diseased",
+        "symptoms": "Brown circular spots with yellow rings on leaves.",
+        "treatment": "Spray Mancozeb 2g per litre every 7 days.",
+        "prevention": "Avoid overhead irrigation and remove infected leaves.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    },
+    "Tomato_Late_blight": {
+        "type": "Diseased",
+        "symptoms": "Dark water soaked patches spreading quickly.",
+        "treatment": "Apply Metalaxyl + Mancozeb fungicide.",
+        "prevention": "Ensure proper plant spacing and reduce humidity.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    },
+    "Tomato_Bacterial_spot": {
+        "type": "Diseased",
+        "symptoms": "Small dark lesions with yellow halo.",
+        "treatment": "Spray Copper Oxychloride or Streptocycline.",
+        "prevention": "Use certified disease-free seeds.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    },
+    "Tomato_healthy": {
+        "type": "Healthy",
+        "symptoms": "Green healthy leaves.",
+        "treatment": "No treatment required.",
+        "prevention": "Maintain balanced fertilization.",
+        "advice": "Maintain consistent irrigation and monitor weekly for any early pest signs."
+    },
+    "Potato_Early_blight": {
+        "type": "Diseased",
+        "symptoms": "Target-like concentric rings on leaves.",
+        "treatment": "Spray Chlorothalonil or Mancozeb.",
+        "prevention": "Rotate crops and avoid water stress.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    },
+    "Potato_Late_blight": {
+        "type": "Diseased",
+        "symptoms": "Water soaked dark lesions spreading rapidly.",
+        "treatment": "Apply Metalaxyl + Mancozeb fungicide.",
+        "prevention": "Avoid excessive irrigation.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    },
+    "Potato_healthy": {
+        "type": "Healthy",
+        "symptoms": "Uniform green foliage.",
+        "treatment": "No treatment required.",
+        "prevention": "Maintain soil nutrients and irrigation balance.",
+        "advice": "Maintain consistent irrigation and monitor weekly for any early pest signs."
+    },
+    "Rice_Brownspot": {
+        "type": "Diseased",
+        "symptoms": "Brown circular lesions on rice leaves.",
+        "treatment": "Spray Carbendazim or Mancozeb.",
+        "prevention": "Use certified seeds and proper fertilization.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    },
+    "Rice_Bacterialblight": {
+        "type": "Diseased",
+        "symptoms": "Yellowing and drying leaf edges.",
+        "treatment": "Spray Streptocycline with Copper fungicide.",
+        "prevention": "Avoid excessive nitrogen fertilizer.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    },
+    "Rice_Healthy": {
+        "type": "Healthy",
+        "symptoms": "Green erect leaves.",
+        "treatment": "No treatment required.",
+        "prevention": "Maintain proper irrigation.",
+        "advice": "Maintain consistent irrigation and monitor weekly for any early pest signs."
+    },
+    "Wheat_Brown_rust": {
+        "type": "Diseased",
+        "symptoms": "Brown pustules on leaf surface.",
+        "treatment": "Spray Propiconazole fungicide.",
+        "prevention": "Grow resistant wheat varieties.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    },
+    "Wheat_Yellow_rust": {
+        "type": "Diseased",
+        "symptoms": "Yellow stripe patterns on leaves.",
+        "treatment": "Apply Tebuconazole fungicide.",
+        "prevention": "Early sowing and resistant varieties.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    },
+    "Wheat_Healthy": {
+        "type": "Healthy",
+        "symptoms": "Uniform green crop growth.",
+        "treatment": "No treatment needed.",
+        "prevention": "Balanced fertilization.",
+        "advice": "Maintain consistent irrigation and monitor weekly for any early pest signs."
+    },
+    "Pepper_bell_Bacterial_spot": {
+        "type": "Diseased",
+        "symptoms": "Small dark spots on leaves and fruits.",
+        "treatment": "Spray Copper Oxychloride weekly.",
+        "prevention": "Avoid overhead irrigation and use healthy seedlings.",
+        "advice": "Practice 2-3 year crop rotation. Manage irrigation to reduce humidity around foliage. Balance fertilizer applications."
+    }
+}

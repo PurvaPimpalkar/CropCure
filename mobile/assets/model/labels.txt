@@ -1,0 +1,14 @@
+0 Tomato_Early_blight 
+1 Tomato_Late_blight
+2 Tomato_Bacterial_spot
+3 Tomato_healthy
+4 Potato_Early_blight
+5 Potato_Late_blight
+6 Potato_healthy
+7 Rice_Brownspot
+8 Rice_Bacterialblight
+9 Rice_Healthy
+10 Wheat_Brown_rust 
+11 Wheat_Yellow_rust
+12 Wheat_Healthy 
+13 Pepper_bell_Bacterial_spot
